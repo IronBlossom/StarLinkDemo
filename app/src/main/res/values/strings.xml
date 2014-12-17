@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">StarLinkDemo</string>
+    <string name="activity1_name">StarLink</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
