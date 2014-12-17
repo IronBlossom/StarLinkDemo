@@ -2,8 +2,9 @@
 <resources>
 
     <string name="app_name">StarLinkDemo</string>
-    <string name="activity1_name">StarLink</string>
+    <string name="activity1_name">StarLink-Login</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="menu_login">Login</string>
 
 </resources>

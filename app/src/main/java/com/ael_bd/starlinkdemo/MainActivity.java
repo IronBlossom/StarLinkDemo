@@ -13,16 +13,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Log.v("Hello","Hello");
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Log.v("THE","ONLY");
-            }
-        });
-
     }
 
     @Override
@@ -39,12 +29,15 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-
-
-            return true;
+        switch (id) {
+            case R.id.action_login:
+                Log.v("Action", "Login");
+                break;
+            case R.id.action_addacc:
+                Log.v("Action", "AddAccount");
+                break;
         }
+
 
         return super.onOptionsItemSelected(item);
     }
