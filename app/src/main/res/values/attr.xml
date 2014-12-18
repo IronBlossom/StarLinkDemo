@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HighlightedImageRadioButton">
+        <attr name="focusedDrawable" format="reference"/>
+        <attr name="normalDrawable" format="reference"/>
+    </declare-styleable>
+
+</resources>
